@@ -20,7 +20,7 @@ const ContestList = ({ initialContests, onContestClick }) => {
 
   return (
     <>
-      <Header message="Naming Contests" />
+      <Header message="Article Contests" />
 
       <div className="contest-list">
         {contests.map((contest) => {

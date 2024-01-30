@@ -6,7 +6,7 @@ import apiRouter from "./api-router";
 import serverRender from "./render";
 
 const server = express();
-
+//Middleware
 server.use(express.static("dist"));
 
 server.set("view engine", "ejs");
